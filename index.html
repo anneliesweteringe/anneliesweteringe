@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<title>Annelies Weteringe</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/57b4dd3693.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="favicon.ico">
+
+<body class="w3-responsive">
+
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+
+    <div class="w3-bar" id="myNavbar">
+      <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);"
+        onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a href="#home" class="w3-bar-item w3-button w3-black w3-text-white">
+        <i class="fas fa-user-tie"></i> JON</a>
+
+      <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-black w3-text-white">
+        <i class="far fa-address-card"></i> ABOUT</a>
+        
+      <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small w3-black w3-text-white">
+        <i class="fa fa-th"></i> PORTFOLIO</a>
+        
+      <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-black w3-text-white">
+        <i class="fa fa-envelope"></i> CONTACT</a>    
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navBar" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+      <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()"> ABOUT</a>
+      <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()"> PORTFOLIO</a>
+      <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()"> CONTACT</a>
+    </div>
+  </div>
+
+  <!-- First Parallax Image with Logo Text -->
+  <div class="bgimg-1 w3-display-container" id="home">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+      <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Annelies Weteringe</span>
+    </div>
+  </div>
+
+  <!-- Container (About Section) -->
+  <div class="w3-content w3-container w3-padding-64" id="about">
+    <h3 class="w3-center"><strong>ABOUT ME</strong></h3>
+    <p class="w3-center "><strong>Welcome to my portfolio.</strong></p>
+    <p>I'm Jon. Thank you for taking the time to view my Portfolio. After working in retail for almost 20 years,
+      I've had the opportunity to change my career and work in Web Design.</p>
+
+
+
+    <div class="w3-row">
+      <div class="w3-col m6 w3-center w3-padding-large">
+        <!-- <p><b><i class="fa fa-user w3-margin-right"></i>Jonathan</b></p> -->
+        <br>
+        <img src="assets/meWork.JPG" class="w3-round w3-image" alt="Photo of Me" width="300" height="300">
+      </div>
+
+      <!-- Hide this text on small devices -->
+      <div class="w3-col m6  w3-padding-large ">
+        <br>
+        <p class="w3-center test"><strong>I Love Web Design!</strong></p>
+
+        <p>I'm now a Web Developer working for HarvestEye Limited. 
+          I specialize in designing and creating Web-Portals from the ground up for internal and external stakeholders. 
+          I believe in clear, concise, and easy to follow menu systems, which are thoroughly thought out and rigorously tested.
+        </p>     
+        
+      </div>
+    </div>
+    <p class=" w3-center w3-padding-16"><strong>Im really good at</strong></p>
+    <p class="w3-wide"><i class="fab fa-html5 w3-text-orange"></i>HTML</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+    </div>
+    <p class="w3-wide"><i class="fab fa-css3-alt w3-text-blue"></i>CSS</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
+    </div>
+    <p class="w3-wide"><i class="fas fa-laptop-code w3-text-green"></i>UX/UI</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
+    </div>
+    <p class="w3-wide"><i class="fab fa-js-square w3-text-yellow"></i>Java Script</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-dark-grey w3-center" style="width:75%">50%</div>
+    </div>
+  </div>
+
+  <!-- Second Parallax Image with Portfolio Text -->
+  <div class="bgimg-2 w3-display-container">
+    <div class="w3-display-middle">
+      <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">PORTFOLIO</span>
+    </div>
+  </div>
+
+  <!-- Container (Portfolio Section) -->
+  <div class=" w3-container w3-padding-64 w3-center" id="portfolio">
+    <h3 class=""><strong>MY WORK</strong></h3>
+    <p class=""><em>Here are some samples of my latest projects.</em></p>
+    <br>
+
+    <!-- Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+
+    <div class="w3-center">
+
+     
+        <div class="w3-card project-pics mob-width">
+          <img src="assets/vwccNew.PNG" style="width:100%">
+          <div class="w3-container">
+            <h3><strong><a target="_blank" href="https://lucasj01uk.github.io/velowise.cc/">VeloWise.cc</a></strong></h3>
+            <p>In pursuit of a career with my newfound skills and passion, I built my first website based on another 
+              passion of mine, cycling! VeloWise.cc is a directory site categorising mainstream and obscure British 
+              cycling brands. This site is fledgling, which is growing and improving all the time.</p>
+          </div>
+        </div>
+     
+    
+      
+        <div class="w3-card project-pics mob-width">
+          <img src="assets/HarvestEyeLogin.PNG" style="width:100%">
+          <div class="w3-container">
+            <h3><strong><a target="_blank" href="https://portal.harvesteye.com/auth"> HarvestEye Ltd Web Portal</a></strong></h3>
+            <p>I'm in my first full-time permanent position as an in-house Junior Web Designer. My first project was to create a 
+              UI for a web portal based on some rough designs from my team leader. The web portal used HTML CSS and W3.css at it's 
+              core and was built remotely during the first lockdown caused by the COVID 19 pandemic in Great Britain.</p>
+          </div>
+        </div>
+  
+
+    </div>
+
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+    <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i
+        class="fa fa-remove"></i></span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption" class="w3-opacity w3-large"></p>
+    </div>
+  </div>
+
+  <!-- Third Parallax Image with Portfolio Text -->
+  <div class="bgimg-3 w3-display-container">
+    <div class="w3-display-middle">
+      <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">CONTACT</span>
+    </div>
+  </div>
+
+  <!-- Container (Contact Section) -->
+  <div class="w3-content w3-container w3-padding-64" id="contact">
+    <h3 class="w3-center"><strong>WHERE I WORK</strong></h3>
+    <p class="w3-center"><em>Considering me for a project? Swing by for a cup of <i class="fa fa-coffee fa-xs"></i>, or send
+        me a message:</em></p>
+
+    <div class="w3-row w3-padding-32 w3-section">
+      <div class="w3-col m4 w3-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19175.099629548156!2d-0.8195432305847942!3d53.07629504662452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487834455e4590d7%3A0x2fa6a5583441f3c3!2sNewark-on-Trent%2C%20Newark!5e0!3m2!1sen!2suk!4v1601911415966!5m2!1sen!2suk"
+          width="300" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+          tabindex="0"></iframe>
+      </div>
+      <div class="w3-col m8 w3-panel">
+        <div class="w3-large w3-margin-bottom">
+          <br>
+          <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Newark-on-Trent,
+          Nottinghamshire, Great Britain.<br>
+          <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: (+44) 0 7889 315 681<br>
+          <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email:
+          lucasj01@hotmail.com<br>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-center w3-black w3-padding-64">
+    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <div class="w3-xlarge w3-section">
+
+      <a target="_blank" href="https://www.linkedin.com/in/jonathan-lucas-01uk" class="btn zoom social-media btn-xs">
+       <i class="fa fa-linkedin w3-margin-right"></i></a>
+
+      <a target="_blank" href="https://www.instagram.com/hold_on_jon/?hl=en" class="btn zoom social-media btn-xs">
+       <i class="fa fa-instagram"></i></a>
+
+      <a target="_blank" href="https://www.facebook.com/jon.lucas4" class="btn zoom social-media btn-xs ">
+       <i class="fa fa-facebook-official w3-margin-left"></i></a>          
+
+    </div>
+    <p>© 2021 Annelies Weteringe. All rights reserved.</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>

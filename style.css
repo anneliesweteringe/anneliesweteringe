@@ -1,0 +1,90 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: 'Gruppo', cursive;}
+body, html {
+  height: 100%;
+  color: rgb(63, 62, 62);
+  line-height: 1.8;
+  font-size: 22px;
+  scroll-behavior: smooth;
+  /* font-weight: 800; */
+}
+
+/* Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Full height background) */
+.bgimg-1 {
+  background-image: url('assets/desktop.jpg');
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url('assets/desktop.jpg');
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url('assets/keyboard.jpg');
+  min-height: 400px;
+}
+
+.w3-wide {
+  letter-spacing: 10px;
+}
+
+.w3-hover-opacity {
+  cursor: pointer;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+
+
+#myNavbar a {
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fa-linkedin:hover {
+  color: #0077B5;
+}
+
+.fa-facebook-official:hover {
+  color: #385898;
+}
+
+.fa-instagram:hover {
+  color: #c13584
+}
+
+.project-pics {
+  width: 50%;
+  margin-bottom: 18px;
+   margin-left : auto;
+   margin-right: auto;
+}
+
+@media only screen and (max-device-width: 600px) {
+  .mob-width {
+    width:fit-content;
+  }
+}
+
+.test {
+  margin-top: 0px !important;
+}
